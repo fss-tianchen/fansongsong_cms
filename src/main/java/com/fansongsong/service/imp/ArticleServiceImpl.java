@@ -120,8 +120,8 @@ public class ArticleServiceImpl  implements ArticleService{
 	}
 
 	@Override
-	public Integer favarite(Integer id, Integer id2) {
+	public Integer favarite(Integer userId, Integer artId) {
 		// TODO Auto-generated method stub
-		return null;
+		return articleMapper.favorite(userId, artId);
 	}
 }
