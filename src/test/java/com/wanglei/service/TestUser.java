@@ -3,7 +3,8 @@ package com.wanglei.service;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.wanglei.entity.User;
+import com.fansongsong.entity.User;
+import com.fansongsong.service.UserService;
 
 public class TestUser  extends TestBase{
 	

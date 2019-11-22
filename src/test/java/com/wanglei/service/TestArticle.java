@@ -5,8 +5,9 @@ import java.util.List;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.fansongsong.entity.Article;
+import com.fansongsong.service.ArticleService;
 import com.github.pagehelper.PageInfo;
-import com.wanglei.entity.Article;
 
 public class TestArticle extends TestBase{
 

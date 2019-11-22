@@ -34,7 +34,7 @@
 			<mvc:exclude-mapping path="/pic/**"/>
 			<mvc:exclude-mapping path="/resource/**"/>
 			<mvc:exclude-mapping path="/article/showdetail"/>
-			<bean class="com.wanglei.web.UserInterceptor"></bean>
+			<bean class="com.fansongsong.web.UserInterceptor"></bean>
 		</mvc:interceptor>
 	</mvc:interceptors>
 	

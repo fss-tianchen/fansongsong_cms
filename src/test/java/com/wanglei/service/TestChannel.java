@@ -8,7 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.wanglei.entity.Channel;
+import com.fansongsong.entity.Channel;
+import com.fansongsong.service.ChannelService;
 
 
 public class TestChannel  extends TestBase{
